@@ -1,12 +1,92 @@
-# React + Vite
+# 🤖 AI Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A friendly AI Chatbot built with **React + Vite** that answers questions, tells jokes, or shares daily tips — powered by [OpenRouter](https://openrouter.ai).
 
-Currently, two official plugins are available:
+![Chatbot Screenshot](https://i.postimg.cc/J7s213BF/Immagine-2025-04-11-165325.jpg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡️ Fast and modern setup with [Vite](https://vitejs.dev/)
+- 🧠 Chat with AI (using `mistralai/mistral-7b-instruct`)
+- 💬 Smart conversation history
+- 🎨 Clean and responsive UI
+- 🔐 API key stored safely via `.env`
+
+---
+
+## 📦 Tech Stack
+
+- **React** – Frontend library
+- **Vite** – Build tool
+- **Axios** – For HTTP requests
+- **OpenRouter API** – For AI responses
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/Domenico85/Ai-Chatbot
+cd ai-chatbot
+
+2. Install dependencies
+
+npm install
+
+3. Add your API key
+
+Create a .env file in the root:
+
+VITE_OPENROUTER_API_KEY=sk-your-openrouter-api-key
+
+    🔐 You can get a free key from openrouter.ai.
+
+4. Run the app
+
+npm run dev
+
+Visit http://localhost:5173 in your browser.
+📁 Project Structure
+
+ai-chatbot/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── Chatbot.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+├── .env
+├── package.json
+└── vite.config.js
+
+🌟 Future Ideas
+
+    🎲 "Tell me a joke" / "Give me a tip" buttons
+
+    💾 Save chat history to localStorage or backend
+
+    🎨 Add light/dark theme toggle
+
+    🌐 Multilingual support
+
+📸 Preview
+
+    (https://i.postimg.cc/J7s213BF/Immagine-2025-04-11-165325.jpg)
+
+📄 License
+
+MIT
+🙌 Acknowledgements
+
+    OpenRouter
+
+    Mistral AI
+
+    Vite
+
+Made with ❤️ by Your Name
+```
