@@ -32,20 +32,27 @@ A friendly AI Chatbot built with **React + Vite** that answers questions, tells 
 ```bash
 git clone https://github.com/Domenico85/Ai-Chatbot
 cd ai-chatbot
+```
 
-2. Install dependencies
+### 2. Install dependencies
 
+```bash
 npm install
+```
 
-3. Add your API key
+### 3. Add your API key
 
+```bash
 Create a .env file in the root:
 
 VITE_OPENROUTER_API_KEY=sk-your-openrouter-api-key
 
     🔐 You can get a free key from openrouter.ai.
+```
 
-4. Run the app
+### 4. Run the app
+
+```bash
 
 npm run dev
 
@@ -63,7 +70,9 @@ ai-chatbot/
 ├── package.json
 └── vite.config.js
 
-🌟 Future Ideas
+```
+
+### 🌟 Future Ideas
 
     🎲 "Tell me a joke" / "Give me a tip" buttons
 
@@ -73,11 +82,10 @@ ai-chatbot/
 
     🌐 Multilingual support
 
+### 📄 License
 
+### MIT
 
-📄 License
-
-MIT
 🙌 Acknowledgements
 
     OpenRouter
@@ -86,5 +94,4 @@ MIT
 
     Vite
 
-Made with ❤️ by DomDev
-```
+### Made with ❤️ by DomDev
