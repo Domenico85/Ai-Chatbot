@@ -1,13 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
 body {
   justify-content: center;
   overflow: hidden;
+  background: hsla(339, 100%, 55%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(339, 100%, 55%, 1) 0%,
+    hsla(197, 100%, 64%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(339, 100%, 55%, 1) 0%,
+    hsla(197, 100%, 64%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(339, 100%, 55%, 1) 0%,
+    hsla(197, 100%, 64%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF1B6B", endColorstr="#45CAFF", GradientType=1 );
+}
+
+h1 span {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background: hsla(141, 81%, 87%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(141, 81%, 87%, 1) 0%,
+    hsla(41, 88%, 75%, 1) 50%,
+    hsla(358, 82%, 71%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(141, 81%, 87%, 1) 0%,
+    hsla(41, 88%, 75%, 1) 50%,
+    hsla(358, 82%, 71%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(141, 81%, 87%, 1) 0%,
+    hsla(41, 88%, 75%, 1) 50%,
+    hsla(358, 82%, 71%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C5F9D7", endColorstr="#F7D486", GradientType=1 );
+  background-clip: text;
+  color: transparent;
 }
 
 .chatbot-container {
   max-width: 600px;
   margin: 2rem auto;
   padding: 1rem;
-  background: #f4f4f4;
+  background: rgba(27, 234, 226, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(27, 234, 226, 0.3);
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   font-family: sans-serif;
