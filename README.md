@@ -2,7 +2,7 @@
 
 A friendly AI Chatbot built with **React + Vite** that answers questions, tells jokes, or shares daily tips — powered by [OpenRouter](https://openrouter.ai).
 
-![Chatbot Screenshot](https://i.postimg.cc/J7s213BF/Immagine-2025-04-11-165325.jpg)
+<a href='https://postimg.cc/7byV9291' target='_blank'><img src='https://i.postimg.cc/J7s213BF/Immagine-2025-04-11-165325.jpg' border='0' alt='Immagine-2025-04-11-165325'/>Chatbot Screenshot</a>
 
 ---
 
@@ -75,7 +75,7 @@ ai-chatbot/
 
 📸 Preview
 
-    (https://i.postimg.cc/J7s213BF/Immagine-2025-04-11-165325.jpg)
+    https://i.postimg.cc/J7s213BF/Immagine-2025-04-11-165325.jpg
 
 📄 License
 
