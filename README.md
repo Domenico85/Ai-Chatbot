@@ -1,4 +1,4 @@
-# 🤖 AI Chatbot
+# 🤖 AI Chatbot Version 1.00
 
 A friendly AI Chatbot built with **React + Vite** that answers questions, tells jokes, or shares daily tips — powered by [OpenRouter](https://openrouter.ai).
 
