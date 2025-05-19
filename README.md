@@ -40,7 +40,7 @@ cd ai-chatbot
 npm install
 ```
 
-### 3. Add your API key
+### 3. Add your API key (I used openrouter.ai)
 
 ```bash
 Create a .env file in the root:
