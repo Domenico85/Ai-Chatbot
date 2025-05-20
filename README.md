@@ -76,7 +76,7 @@ ai-chatbot/
 
     🎲 "Tell me a joke" / "Give me a tip" buttons
 
-    💾 Save chat history to localStorage or backend
+    💾 Save chat history to localStorage or backend develop
 
     🎨 Add light/dark theme toggle
 
